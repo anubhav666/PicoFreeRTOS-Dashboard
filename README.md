@@ -102,6 +102,6 @@ obj/
 Thumbs.db
 ```
 
-![.NET](https://img.shields.io/badge/.NET-7.0-blueviolet)
+![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet)
 ![Platform](https://img.shields.io/badge/Pico-RP2040-orange)
 ![License](https://img.shields.io/github/license/anubhav666/PicoFreeRTOS-Dashboard)
