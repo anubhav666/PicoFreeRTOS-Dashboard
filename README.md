@@ -80,12 +80,17 @@ Ensure your Pico outputs JSON over USB Serial:
 ```bash
 { "device_id": "pico01", "status": "OK", "temp_sim": 33.4 }
 ```
+## 📃 License
+MIT License — feel free to fork, build on, and share!
 
----
+## 🤝 Contributions
+
+Contributions are welcome! Please open issues or PRs for improvements or ideas.
+
 
 ## 🧾 `.gitignore` Examples
 
-### `.gitignore`
+#### `.gitignore`
 
 ```gitignore
 # Pico build artifacts
