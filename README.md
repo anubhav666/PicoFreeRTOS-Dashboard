@@ -13,9 +13,11 @@ This project demonstrates a real-time dashboard built with **Blazor Server** and
 - 🖥️ Web-based C# dashboard (ASP.NET Core Blazor Server)
 
 ---
-
 ## 🛠️ Folder Structure
+```bash
 ├───PicoFreeRTOS-Dashboard
 │   ├───blazor-dashboard
 │   ├───docs
 │   └───pico-freertos
+```
+
