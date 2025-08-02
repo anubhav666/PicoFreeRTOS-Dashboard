@@ -16,3 +16,28 @@ This project demonstrates a real-time dashboard built with **Blazor Server** and
 
 ## 🛠️ Folder Structure
 
+PicoFreeRTOS-Dashboard/
+├── 📁 blazor-dashboard/              # C# Blazor Server App
+│   ├── Program.cs
+│   ├── Pages/
+│   ├── Models/
+│   ├── Services/
+│   ├── Hubs/
+│   ├── wwwroot/js/
+│   └── ... (.csproj, _Host.cshtml, etc.)
+│
+├── 📁 pico-freertos/                 # Raspberry Pi Pico FreeRTOS App
+│   ├── main.c
+│   ├── CMakeLists.txt
+│   ├── freertos/                    # Optional: submodule or source copy
+│   ├── include/
+│   └── build/                       # Ignore in Git
+│
+├── 📁 docs/                          # Optional: Screenshots, diagrams
+│   ├── architecture.png
+│   ├── dashboard-preview.png
+│   └── serial-setup.png
+│
+├── .gitignore
+├── README.md
+└── LICENSE
