@@ -42,3 +42,66 @@ PicoFreeRTOS-Dashboard/
 └── LICENSE
 ```
 
+---
+
+## 🧠 System Overview
+
+![Architecture](./docs/architechture.png)
+
+---
+
+## 📦 Requirements
+
+### Hardware:
+- Raspberry Pi Pico (RP2040)
+- USB cable (data)
+
+### Software:
+- Windows/Linux/Mac
+- .NET SDK 7.0+
+- Visual Studio / VS Code
+- CMake + Ninja + pico-sdk
+- [FreeRTOS](https://freertos.org)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🔧 1. Build & Flash Pico (FreeRTOS)
+
+```bash
+cd pico-freertos
+mkdir build && cd build
+cmake ..
+make
+# Copy .uf2 to Pico USB storage
+```
+Ensure your Pico outputs JSON over USB Serial:
+```bash
+{ "device_id": "pico01", "status": "OK", "temp_sim": 33.4 }
+```
+
+---
+
+## 🧾 `.gitignore` Examples
+
+### `.gitignore`
+
+```gitignore
+# Pico build artifacts
+pico-freertos/build/
+
+# VS + .NET
+bin/
+obj/
+*.user
+*.vs/
+
+# OS files
+.DS_Store
+Thumbs.db
+```
+
+![.NET](https://img.shields.io/badge/.NET-7.0-blueviolet)
+![Platform](https://img.shields.io/badge/Pico-RP2040-orange)
+![License](https://img.shields.io/github/license/anubhav666/PicoFreeRTOS-Dashboard)
