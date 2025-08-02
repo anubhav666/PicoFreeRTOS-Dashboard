@@ -28,11 +28,11 @@ PicoFreeRTOS-Dashboard/
 ├── 📁 pico-freertos/                 # Raspberry Pi Pico FreeRTOS App
 │   ├── main.c
 │   ├── CMakeLists.txt
-│   ├── freertos/                    # Optional: submodule or source copy
+│   ├── freertos/                    
 │   ├── include/
-│   └── build/                       # Ignore in Git
+│   └── build/                       
 │
-├── 📁 docs/                          # Optional: Screenshots, diagrams
+├── 📁 docs/                          
 │   ├── architecture.png
 │   ├── dashboard-preview.png
 │   └── serial-setup.png
